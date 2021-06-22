@@ -1,0 +1,26 @@
+.GridWrapper {
+    margin: auto;
+}
+
+.GridContent {
+    margin: auto;
+}
+
+.CardWrapper {
+    background-color: rgba(255, 0, 0, 0.308);
+    margin: 10px;
+    height: 235px;
+    width: 235px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+@media (max-width : 600px) {
+    .CardWrapper {
+        margin: 5px;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
